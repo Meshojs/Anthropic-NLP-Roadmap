@@ -1,7 +1,6 @@
 # Anthropic NLP Roadmap
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/Meshojs/Anthropic-NLP-Roadmap)
 
-This repository documents a learning journey through a structured roadmap covering foundational Machine Learning and Natural Language Processing concepts. It features a series of hands-on projects, from building neural networks from scratch with NumPy to leveraging PyTorch for image classification and exploring core NLP techniques.
+The main goal of this roadmap is to turn you from a beginner in deep learning into a senior-level NLP engineer who can build, understand, and improve modern language models. It develops strong foundations in programming, math, and neural networks, then moves step by step into transformers, LLM systems, and real-world projects. By the end, you should be able to design, train, evaluate, and deploy advanced NLP models and be ready for research or industry roles.
 
 ## Repository Structure
 
