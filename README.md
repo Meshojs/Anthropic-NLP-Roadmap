@@ -1,50 +1,76 @@
-# Anthropic NLP Roadmap
+# Anthropic‑NLP‑Roadmap — I Built It and Here’s What It Is
 
-The main goal of this roadmap is to turn you from a beginner in deep learning into a senior-level NLP engineer who can build, understand, and improve modern language models. It develops strong foundations in programming, math, and neural networks, then moves step by step into transformers, LLM systems, and real-world projects. By the end, you should be able to design, train, evaluate, and deploy advanced NLP models and be ready for research or industry roles.
+I built **Anthropic‑NLP‑Roadmap** as a practical, hands‑on learning journey from basic machine learning to core natural language processing (NLP) skills. This isn’t just a list of topics — I wrote real notebooks and code you can run, explore, and learn from. ([github.com](https://github.com/Meshojs/Anthropic-NLP-Roadmap/tree/main))
 
-## Repository Structure
+---
 
-The curriculum is divided into blocks and weeks, with each folder containing Jupyter notebooks, datasets, and project deliverables.
+## 🧠 What I Did
 
--   **`Block1-M/`**: Focuses on Machine Learning fundamentals.
-    -   **`weekone/`**: Introduces Python basics, NumPy operations, and the from-scratch implementation of neural networks for regression tasks.
-    -   **`weektwo/`**: Covers classification, demonstrating a binary classifier built with NumPy and a multi-class image classifier with PyTorch.
--   **`Block2-M/`**: Begins the NLP section of the roadmap.
-    -   **`main1.ipynb`**: Explores fundamental text preprocessing techniques using NLTK and SpaCy.
+I structured this roadmap so that you:
 
-## Projects and Deliverables
+- **Start with foundational machine learning basics**  
+- **Move into neural networks and PyTorch models**  
+- **Then transition into NLP workflows and text processing**
 
-### 1. House Price Prediction
--   **Location**: `Block1-M/weekone/deliverable-1/`
--   **Description**: A neural network built from scratch using only NumPy to predict house prices based on features like square footage, number of bedrooms, and location signals. The implementation includes data loading, feature scaling, a custom training loop, and the use of ReLU activation functions.
--   **Key Skills**: Regression, Data Preprocessing, NumPy, Neural Network Architecture.
+Everything is written with real Python code, exercises, and explanations — not just theory.
 
-### 2. Student Final Grade Prediction
--   **Location**: `Block1-M/weekone/deliverable-2/`
--   **Description**: A regression model implemented in NumPy to predict final student grades (`G3`) based on demographic, social, and school-related features. The project involves significant data cleaning, label encoding for categorical features, and outlier handling.
--   **Key Skills**: Regression, Feature Engineering, Data Cleaning, NumPy.
+---
 
-### 3. Titanic Survival Classification
--   **Location**: `Block1-M/weektwo/deliverable-3/`
--   **Description**: A binary classification model built with NumPy to predict passenger survival on the Titanic. This project addresses class imbalance using SMOTE (Synthetic Minority Over-sampling TEchnique) and uses a sigmoid activation function for the final output layer.
--   **Key Skills**: Binary Classification, Class Imbalance (SMOTE), Feature Scaling, NumPy.
+## 📁 How It’s Organized
 
-### 4. MNIST Digit Recognition
--   **Location**: `Block1-M/weektwo/deliverable-4/`
--   **Description**: A multi-class image classifier built with PyTorch to recognize handwritten digits from the MNIST dataset. The model utilizes linear layers, ReLU activations, and the `CrossEntropyLoss` criterion for training.
--   **Key Skills**: Multi-class Classification, PyTorch, `nn.Module`, `DataLoader`, Image Classification.
+Anthropic‑NLP‑Roadmap/
+├─ Block1‑M/
+│ ├─ weekone/
+│ └─ weektwo/
+├─ Block2‑M/
+│ └─ weekone/
+├─ README.md
 
-### 5. NLP Foundations
--   **Location**: `Block2-M/main1.ipynb`
--   **Description**: An exploratory notebook covering the building blocks of Natural Language Processing. It demonstrates techniques such as tokenization, stop-word removal, stemming, lemmatization, Part-of-Speech (POS) tagging, and the use of regular expressions for text pattern matching.
--   **Key Skills**: Tokenization, Lemmatization, Stemming, Regex, NLTK, SpaCy.
 
-## Technologies Used
--   Python
--   NumPy
--   Pandas
--   PyTorch
--   Scikit-learn
--   NLTK
--   SpaCy
--   idx2numpy
+
+### 📌 Breakdown
+
+- **Block1‑M:** Machine learning fundamentals  
+  - `weekone`: I built regression models and simple neural networks.  
+  - `weektwo`: I wrote classification projects and a PyTorch MNIST model.  
+- **Block2‑M:** NLP basics  
+  - `weekone`: I created text preprocessing and NLP notebooks that teach tokenization, stemming, and language‑level parsing.  
+Each block is intentional — I wrote the code to teach you step by step. 
+
+---
+
+## 🛠 Tools You’ll Use
+
+In this roadmap I used:
+
+- **Python** for all coding
+- **NumPy & Pandas** for data handling
+- **PyTorch** for deep learning
+- **Scikit‑learn** for utilities
+- **NLTK / SpaCy** for text processing
+
+These tools are industry‑standard so as you go through the notebooks, you’re learning real skills, not just textbook theory. 
+
+---
+
+## ✨ What You Actually Build
+
+Here’s what you’ll work with:
+
+| Notebook | What You Learn |
+|----------|----------------|
+| House Price Prediction | Neural networks from scratch |
+| Student Grade Prediction | Regression with clean data |
+| Titanic Survival | Binary classification logic |
+| MNIST Digit Recognition | Deep learning model with PyTorch |
+| NLP Foundations | Tokenization, clean text, basic feature extraction |
+
+I wrote all of them so you can see **how theory becomes code**. ([github.com](https://github.com/Meshojs/Anthropic-NLP-Roadmap/tree/main))
+
+---
+
+## 🎯 Why It Matters
+
+I didn’t just link resources — I *built runnable code* that guides you through learning. You’ll end up with a portfolio of notebooks and real projects you can point to, not just notes or slides.
+
+By the end of this roadmap, you’ll be able to write and understand real ML and NLP code, and you’ll be ready to take on your own advanced projects. 
