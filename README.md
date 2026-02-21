@@ -1,76 +1,79 @@
-# Anthropic‑NLP‑Roadmap — I Built It and Here’s What It Is
+# Anthropic NLP Roadmap  
+## Block 1 & Block 2 – Project Summary
 
-I built **Anthropic‑NLP‑Roadmap** as a practical, hands‑on learning journey from basic machine learning to core natural language processing (NLP) skills. This isn’t just a list of topics — I wrote real notebooks and code you can run, explore, and learn from. ([github.com](https://github.com/Meshojs/Anthropic-NLP-Roadmap/tree/main))
-
----
-
-## 🧠 What I Did
-
-I structured this roadmap so that you:
-
-- **Start with foundational machine learning basics**  
-- **Move into neural networks and PyTorch models**  
-- **Then transition into NLP workflows and text processing**
-
-Everything is written with real Python code, exercises, and explanations — not just theory.
+Repository: Anthropic-NLP-Roadmap (GitHub)
 
 ---
 
-## 📁 How It’s Organized
+# 🔹 Block 1 — Machine Learning Foundations
 
-Anthropic‑NLP‑Roadmap/
-├─ Block1‑M/
-│ ├─ weekone/
-│ └─ weektwo/
-├─ Block2‑M/
-│ └─ weekone/
-├─ README.md
+## 📌 Project Summary
 
-
-
-### 📌 Breakdown
-
-- **Block1‑M:** Machine learning fundamentals  
-  - `weekone`: I built regression models and simple neural networks.  
-  - `weektwo`: I wrote classification projects and a PyTorch MNIST model.  
-- **Block2‑M:** NLP basics  
-  - `weekone`: I created text preprocessing and NLP notebooks that teach tokenization, stemming, and language‑level parsing.  
-Each block is intentional — I wrote the code to teach you step by step. 
+| Project | What I Made | Core Concepts Applied | Tools |
+|----------|-------------|----------------------|--------|
+| Linear Regression (from scratch) | I built a regression model to predict continuous values using gradient descent | MSE loss, optimization, parameter updates | Python, NumPy |
+| Logistic Regression | I implemented a binary classifier for labeled datasets | Sigmoid activation, decision boundary, classification metrics | NumPy, Scikit-learn |
+| Neural Network (MNIST) | I built and trained a feedforward neural network for digit recognition | Forward/backpropagation, cross-entropy loss, training loops | PyTorch |
+| Data Preprocessing Pipeline | I created structured pipelines for cleaning and preparing datasets | Feature scaling, normalization, train/test split | Pandas, NumPy |
+| Model Evaluation | I evaluated model performance and validated results | Accuracy, precision/recall, confusion matrix | Scikit-learn |
 
 ---
 
-## 🛠 Tools You’ll Use
+## 💼 What I Built
 
-In this roadmap I used:
-
-- **Python** for all coding
-- **NumPy & Pandas** for data handling
-- **PyTorch** for deep learning
-- **Scikit‑learn** for utilities
-- **NLTK / SpaCy** for text processing
-
-These tools are industry‑standard so as you go through the notebooks, you’re learning real skills, not just textbook theory. 
+- I built regression and classification models from scratch to deeply understand optimization and learning dynamics.
+- I implemented gradient descent manually and analyzed convergence behavior.
+- I trained neural networks using PyTorch and understood tensor operations and autograd.
+- I structured reproducible ML workflows including preprocessing, training, and evaluation.
+- I debugged overfitting and improved model performance through iteration.
 
 ---
 
-## ✨ What You Actually Build
+## 🧠 What I Learned
 
-Here’s what you’ll work with:
-
-| Notebook | What You Learn |
-|----------|----------------|
-| House Price Prediction | Neural networks from scratch |
-| Student Grade Prediction | Regression with clean data |
-| Titanic Survival | Binary classification logic |
-| MNIST Digit Recognition | Deep learning model with PyTorch |
-| NLP Foundations | Tokenization, clean text, basic feature extraction |
-
-I wrote all of them so you can see **how theory becomes code**. ([github.com](https://github.com/Meshojs/Anthropic-NLP-Roadmap/tree/main))
+- How machine learning models work mathematically under the hood.
+- The complete ML lifecycle: data → preprocessing → training → evaluation → refinement.
+- Practical model evaluation and validation strategies.
+- Core neural network training mechanics.
 
 ---
 
-## 🎯 Why It Matters
+# 🔹 Block 2 — Natural Language Processing Foundations
 
-I didn’t just link resources — I *built runnable code* that guides you through learning. You’ll end up with a portfolio of notebooks and real projects you can point to, not just notes or slides.
+## 📌 Project Summary
 
-By the end of this roadmap, you’ll be able to write and understand real ML and NLP code, and you’ll be ready to take on your own advanced projects. 
+| Project | What I Made | Core Concepts Applied | Tools |
+|----------|-------------|----------------------|--------|
+| Text Cleaning Pipeline | I built a preprocessing pipeline for raw text normalization | Tokenization, stopword removal, normalization | NLTK / SpaCy |
+| Feature Extraction (BoW & TF-IDF) | I implemented vectorization techniques to convert text into numerical form | Bag-of-Words, TF-IDF weighting | Scikit-learn |
+| NLP Classification Model | I trained a text classifier using processed features | Text vectorization + ML classifier integration | Python |
+| Tokenization Experiments | I explored how tokenization impacts model performance | Vocabulary mapping, text segmentation | NLP fundamentals |
+
+---
+
+## 💼 What I Built
+
+- I built end-to-end NLP preprocessing pipelines.
+- I transformed unstructured text into structured feature representations.
+- I trained classical ML models on text data.
+- I experimented with tokenization strategies and feature engineering.
+
+---
+
+## 🧠 What I Learned
+
+- How raw language is transformed into numerical vectors.
+- The importance of preprocessing decisions in NLP.
+- Vocabulary size, sparsity, and feature scaling trade-offs.
+- Strong foundational knowledge for advanced NLP topics (embeddings, transformers).
+
+---
+
+# 🚀 Overall Outcome
+
+Across Block 1 and Block 2:
+
+- I built multiple end-to-end ML and NLP projects.
+- I implemented algorithms from scratch and with industry-standard libraries.
+- I developed strong fundamentals in machine learning and natural language processing.
+- I gained practical, hands-on coding experience aligned with real-world ML engineering workflows.
