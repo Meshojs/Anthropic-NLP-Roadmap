@@ -1,7 +1,6 @@
 # Anthropic NLP Roadmap  
-## Block 1 & Block 2 – Project Summary
 
-Repository: Anthropic-NLP-Roadmap (GitHub)
+Repository: [Anthropic-NLP-Roadmap](https://github.com/Meshojs/Anthropic-NLP-Roadmap)
 
 ---
 
@@ -69,11 +68,37 @@ Repository: Anthropic-NLP-Roadmap (GitHub)
 
 ---
 
-# 🚀 Overall Outcome
+# 🔹 Block 3 — Planned Deep Learning NLP Projects
 
-Across Block 1 and Block 2:
+## 📌 Project Summary
 
-- I built multiple end-to-end ML and NLP projects.
-- I implemented algorithms from scratch and with industry-standard libraries.
-- I developed strong fundamentals in machine learning and natural language processing.
-- I gained practical, hands-on coding experience aligned with real-world ML engineering workflows.
+| Project | What I Will Make | Core Concepts Applied | Tools |
+|---------|-----------------|----------------------|-------|
+| Transformer-based Classification | Build an NLP classifier using modern embedding and transformer layers | Embeddings, attention, sequence models, fine-tuning | PyTorch, HuggingFace |
+| Token Embedding Experiments | Test different token representations to improve performance | Byte-pair, WordPiece, subword tokenization | HuggingFace Tokenizers |
+| Contextual Text Embeddings | Explore contextual embeddings for downstream tasks | BERT / RoBERTa style embeddings | 🤗 Transformers |
+
+---
+
+## 💼 Planned Goals
+
+- Train and evaluate transformer models on text tasks to move from classic NLP to deep learning-based NLP.
+- Compare tokenizers and embedding strategies to see their effects on model performance.
+- Implement fine-tuning routines using pretrained models for tasks like classification, NER, or semantic similarity.
+
+---
+
+## 🧠 Expected Learning Outcomes
+
+- Understand transformers and attention mechanisms in NLP.
+- Learn how tokenization strategies impact model performance.
+- Gain skills in fine-tuning pretrained models for real-world NLP tasks.
+
+---
+
+# 🚀 Overall Outcome (Blocks 1–3)
+
+- Block 1 gave core machine learning fundamentals.
+- Block 2 introduced classic NLP pipelines and text preprocessing.
+- Block 3 (planned) will bring modern deep learning techniques into NLP, including transformers and embeddings.
+- Together, these blocks map a clear path from *ML foundations* → *NLP basics* → *deep learning NLP workflows*, setting a strong foundation for real-world NLP engineering or research.
