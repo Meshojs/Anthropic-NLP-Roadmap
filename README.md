@@ -2,10 +2,16 @@
 
 Repository: [Anthropic-NLP-Roadmap](https://github.com/Meshojs/Anthropic-NLP-Roadmap)
 
+# 🔹 3/11/2026 | Pipeline — Text Completion via LSTM
+
+<img width="1722" height="592" alt="1_phpgEszN4Q6n_Rtd24zpGw" src="https://github.com/user-attachments/assets/1aaaad51-7e52-4763-ac48-c1fdb08246c0" />
+
+
+
+
 ---
 
 # 🔹 Block 1 — Machine Learning Foundations
-
 ## 📌 Project Summary
 
 | Project | What I Made | Core Concepts Applied | Tools |
