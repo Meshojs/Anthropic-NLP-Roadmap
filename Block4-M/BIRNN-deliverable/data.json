@@ -1,0 +1,37 @@
+[
+    {
+        "input": "Ahmed [MASK] an apple yesterday at the farm.",
+        "target": "ate",
+        "target_index": 1
+    },
+    {
+        "input": "She went to the [MASK] yesterday.",
+        "target": "market",
+        "target_index": 4
+    },
+    {
+        "input": "They [MASK] football every Sunday.",
+        "target": "play",
+        "target_index": 1
+    },
+    {
+        "input": "The cat [MASK] on the roof last night.",
+        "target": "sat",
+        "target_index": 2
+    },
+    {
+        "input": "He [MASK] a book before going to bed.",
+        "target": "read",
+        "target_index": 1
+    },
+    {
+        "input": "Ali [MASK] to the store to buy milk.",
+        "target": "went",
+        "target_index": 1
+    },
+    {
+        "input": "The sun [MASK] in the west every day.",
+        "target": "sets",
+        "target_index": 2
+    }
+]
