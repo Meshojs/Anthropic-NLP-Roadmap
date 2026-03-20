@@ -1,8 +1,13 @@
-# Anthropic NLP Roadmap  
+# NLP Roadmap  
 
-Repository: [Anthropic-NLP-Roadmap](https://github.com/Meshojs/Anthropic-NLP-Roadmap)
 
-# 🔹 3/11/2026 | Pipeline — Text Completion via LSTM
+# 🔹 19/3/2026 | Semantic Search Using BERT
+
+<img width="742" height="326" alt="Screenshot 2026-03-19 023618" src="https://github.com/user-attachments/assets/5fc7d64a-eb5a-4ee0-bcd5-bd63146f3527" />
+
+
+
+# 🔹 11/3/2026 | Pipeline — Text Completion via LSTM
 
 <img width="1722" height="592" alt="1_phpgEszN4Q6n_Rtd24zpGw" src="https://github.com/user-attachments/assets/1aaaad51-7e52-4763-ac48-c1fdb08246c0" />
 
